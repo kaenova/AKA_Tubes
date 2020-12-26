@@ -15,5 +15,7 @@ void menu();
 void BubbleSortMenu(int data[]);
 void BubbleSort(int arr[], int n);
 void header();
+void SelectionSort(int angka[], int n);
+void SelectionSortMenu(int data[]);
 
 #endif // ADT_H_INCLUDED

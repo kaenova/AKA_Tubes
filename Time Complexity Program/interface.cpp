@@ -10,6 +10,7 @@ void header(){
     cout<<"Made by Kaenova Mahendra A. (1301190324) | IF-43-02"<<endl;
     cout<<"(EN) Final Project for Algorithm Complexity Analysis" <<endl;
     cout<<"(ID) Tugas Akhir Mata Analisa Kompleksitas Algoritma"<<endl;
+    cout<<"https://github.com/kaenova/Tubes_AKA"<<endl;
     cout<<"======================================================"<<endl;
     cout<<endl;
 }
@@ -27,13 +28,12 @@ void menu(){
         cout<<"2. Selection Sort"<<endl;
         cout<<"type (exit) to exit"<<endl;
         cout<<endl;
-        cout<<endl;
         cout<<"Choose: ";
         cin>>input;
         if (input == "1"){
             BubbleSortMenu(data);
         } else if (input == "2"){
-           // SelectionSortMenu(data);
-        }
+            SelectionSortMenu(data);
+        };
     } while (input != "exit");
 }

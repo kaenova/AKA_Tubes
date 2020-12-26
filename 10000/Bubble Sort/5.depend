@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1608959843 source:k:\my drive\semester 3\analisis kompleksitas algoritma\tubes_aka\10000\main.cpp
-	<iostream>
-
-1608975462 source:k:\my drive\semester 3\analisis kompleksitas algoritma\tubes_aka\10000\bubble sort\main.cpp
-	<iostream>
-	<bits/stdc++.h>
-	<chrono>
-

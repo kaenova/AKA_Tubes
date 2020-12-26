@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="ADT.h" />
 		<Unit filename="BubbleSort.cpp" />
+		<Unit filename="SelectionSort.cpp" />
 		<Unit filename="interface.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
