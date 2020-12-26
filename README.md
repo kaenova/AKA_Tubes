@@ -14,7 +14,7 @@ Program ini dibuat di dalam bahasa C++. Program ini dibuat untuk dapat melihat k
 ## Version
 <h4>Version 1.0 </h4>
 
- - 2 Algorithm, Selection Sort and Insertion Sort.
+ - 2 Algorithm, Selection Sort and Bubble Sort.
  - Using chorno library to timed the algorithm runtime.
 
 
