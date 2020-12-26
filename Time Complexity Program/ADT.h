@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <conio.h>
+#include<windows.h>
 using namespace std;
 
 void enter_to_continue();
