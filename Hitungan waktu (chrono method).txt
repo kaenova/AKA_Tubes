@@ -1,0 +1,80 @@
+Using chrono::high_resolution_clock in C++.
+chrono : Chrono library is used to deal with date and time. This library was designed to deal with the fact that timers and clocks might be different on different systems and thus to improve over time in terms of precision.chrono is the name of a header, but also of a sub-namespace, All the elements in this header are not defined directly under the std namespace (like most of the standard library) but under the std::chrono namespace.
+
+Below program to demonstrate how to measure execution time using high_resolution_clock function. For detail info on chrono library see this and this
+
+#include <bits/stdc++.h> 
+#include <chrono> 
+using namespace std; 
+  
+  
+// A sample function whose time taken to 
+// be measured 
+void fun() 
+{ 
+    for (int i=0; i<10; i++) 
+    { 
+    } 
+} 
+  
+int main() 
+{ 
+    auto start = chrono::high_resolution_clock::now(); 
+  
+    // unsync the I/O of C and C++. 
+    ios_base::sync_with_stdio(false); 
+  
+    fun(); 
+  
+    auto end = chrono::high_resolution_clock::now(); 
+  
+    // Calculating total time taken by the program. 
+    double time_taken =  
+      chrono::duration_cast<chrono::nanoseconds>(end - start).count(); 
+  
+    time_taken *= 1e-9; 
+  
+    cout << "Time taken by program is : " << fixed  
+         << time_taken << setprecision(9); 
+    cout << " sec" << endl; 
+    return 0; 
+} 
+Output:
+Time taken by program is : 0.000024 sec
+
+
+
+
+
+
+
+    auto start = chrono::high_resolution_clock::now(); 
+    ios_base::sync_with_stdio(false); 
+    SelectionSort(angka, size);
+    auto end = chrono::high_resolution_clock::now(); 
+    double time_taken =  
+      chrono::duration_cast<chrono::nanoseconds>(end - start).count(); 
+  
+    time_taken *= 1e-9; 
+  
+    cout << "Time taken by program is : " << fixed  
+         << time_taken << setprecision(9); 
+    cout << " sec" << endl;
+    cout<<"Done."<<endl;
+    return 0;
+
+
+    auto start = chrono::high_resolution_clock::now(); 
+    ios_base::sync_with_stdio(false); 
+    BubbleSort(angka, size);
+    auto end = chrono::high_resolution_clock::now(); 
+    double time_taken =  
+      chrono::duration_cast<chrono::nanoseconds>(end - start).count(); 
+  
+    time_taken *= 1e-9; 
+  
+    cout << "Time taken by program is : " << fixed  
+         << time_taken << setprecision(9); 
+    cout << " sec" << endl;
+    cout<<"Done."<<endl;
+    return 0;
