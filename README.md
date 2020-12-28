@@ -16,6 +16,14 @@ Program ini dibuat di dalam bahasa C++. Program ini dibuat untuk dapat melihat k
 
  - 2 Algorithm, Selection Sort and Bubble Sort.
  - Using chorno library to timed the algorithm runtime.
+  
+  Version 1.0.1
+  
+  - Bug fix
+  
+  Version 1.0.2
+  
+  - Adding more 90.000 data. So in total there's 100.000 random generated controlled data.
 
 
 <img  src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
