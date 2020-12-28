@@ -3,11 +3,11 @@
 void BubbleSortMenu(int data[]){
     int n;
     cout<<"Bubble Sort"<<endl;
-    cout<<"How many data you want to sort? (674 < n < 10001 ; n: integer): ";
+    cout<<"How many data you want to sort? (674 < n < 100001 ; n: integer): ";
 
     do{
         cin>>n;
-    } while (n > 10000);
+    } while (n > 100000);
     cout<<endl;
 
     auto start = chrono::steady_clock::now();
