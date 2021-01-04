@@ -30,4 +30,4 @@ Program ini dibuat di dalam bahasa C++. Program ini dibuat untuk dapat melihat k
   - Adding ascending data and descending data type.
 
 
-<img  src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
+<img  align= "right" src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
