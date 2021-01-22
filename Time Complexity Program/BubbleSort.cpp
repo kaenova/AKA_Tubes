@@ -8,11 +8,16 @@ void BubbleSortMenu(int data[100000]){
     int n;
     cout<<"Bubble Sort"<<endl;
     cout<<"How many data you want to sort? (674 < n < 100001 ; n: integer): ";
-    do{
+    cin>>n;
+    cout<<endl;
+    while (n > 100000 || n < 675){
+        cout<<"Please type again"<<endl;
+        cout<<"How many data you want to sort? (674 < n < 100001 ; n: integer): ";
         cin>>n;
-    } while (n > 100000);
+    } 
     cout<<endl;
     for (int i = 0 ; i< 3;i++){
+        cout<<"Processing"<<endl;
         data = temp;
         auto start = chrono::steady_clock::now();
         BubbleSort(data, n);
