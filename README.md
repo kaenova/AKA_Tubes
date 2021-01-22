@@ -24,6 +24,10 @@ Program ini dibuat di dalam bahasa C++. Program ini dibuat untuk dapat melihat k
   Version 1.0.2
   
   - Adding more 90.000 data. So in total there's 100.000 random generated controlled data.
+  
+  Version 1.0.3
+  
+  - Adding ascending data and descending data type.
 
 
-<img  src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
+<img  align= "right" src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
