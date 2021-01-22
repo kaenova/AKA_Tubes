@@ -9,13 +9,14 @@ void BubbleSortMenu(int data[]){
         cin>>n;
     } while (n > 100000);
     cout<<endl;
-
-    auto start = chrono::steady_clock::now();
-    BubbleSort(data, n);
-    auto end = chrono::steady_clock::now();
-    cout << "Elapsed time in nanoseconds : "
-        << chrono::duration_cast<chrono::nanoseconds>(end - start).count()
-        << " ns" << endl;
+    for (int i = 0 ; i< 3;i++){
+        auto start = chrono::steady_clock::now();
+        BubbleSort(data, n);
+        auto end = chrono::steady_clock::now();
+        cout << "Elapsed time in nanoseconds : "
+            << chrono::duration_cast<chrono::nanoseconds>(end - start).count()
+            << " ns" << endl;
+    };
 
     enter_to_continue();
 };
