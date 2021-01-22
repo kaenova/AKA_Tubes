@@ -1,15 +1,19 @@
 #include "ADT.h"
 
-void BubbleSortMenu(int data[]){
+void BubbleSortMenu(int data[100000]){
+    int temp[100000];
+    for (int j = 0 ; j < 100000 ; j++){
+        temp[j] = data[j];
+    }
     int n;
     cout<<"Bubble Sort"<<endl;
     cout<<"How many data you want to sort? (674 < n < 100001 ; n: integer): ";
-
     do{
         cin>>n;
     } while (n > 100000);
     cout<<endl;
     for (int i = 0 ; i< 3;i++){
+        data = temp;
         auto start = chrono::steady_clock::now();
         BubbleSort(data, n);
         auto end = chrono::steady_clock::now();

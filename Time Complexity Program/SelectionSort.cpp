@@ -1,6 +1,10 @@
 #include "ADT.h"
 
-void SelectionSortMenu(int data[]){
+void SelectionSortMenu(int data[100000]){
+    int temp[100000];
+    for (int j = 0 ; j < 100000 ; j++){
+        temp[j] = data[j];
+    }
     int n;
     cout<<"Selection Sort"<<endl;
     cout<<"How many data you want to sort? (674 < n < 100001 ; n: integer): ";
@@ -11,6 +15,7 @@ void SelectionSortMenu(int data[]){
     cout<<endl;
 
     for (int i = 0 ; i <3 ; i++){
+        data = temp;
         auto start = chrono::steady_clock::now();
         SelectionSort(data, n);
         auto end = chrono::steady_clock::now();

@@ -11,9 +11,9 @@
 using namespace std;
 
 void enter_to_continue();
-void BubbleSortMenu(int data[]);
+void BubbleSortMenu(int data[100000]);
 void menu();
-void BubbleSortMenu(int data[]);
+void BubbleSortMenu(int data[100000]);
 void BubbleSort(int arr[], int n);
 void header();
 void SelectionSort(int angka[], int n);
